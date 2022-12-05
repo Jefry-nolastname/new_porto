@@ -15,9 +15,9 @@ const props = defineProps({
     color: String,
     label: String,
     default: () => ({
-      route: "https://www.creative-tim.com/product/vue-material-kit",
+      route: "/CV_Eng.pdf",
       color: "bg-gradient-success",
-      label: "Free Download"
+      label: "Download my CV"
     })
   },
   transparent: {
@@ -120,7 +120,7 @@ watch(
         title="Designed and Coded by Creative Tim"
         data-placement="bottom"
       >
-        Material Kit 2
+        My Portofolio & Work related site
       </RouterLink>
       <RouterLink
         class="navbar-brand d-block d-md-none"
@@ -161,7 +161,7 @@ watch(
         id="navigation"
       >
         <ul class="navbar-nav navbar-nav-hover ms-auto">
-          <li class="nav-item dropdown dropdown-hover mx-2">
+          <!-- <li class="nav-item dropdown dropdown-hover mx-2">
             <a
               role="button"
               class="nav-link ps-2 d-flex cursor-pointer align-items-center"
@@ -270,7 +270,7 @@ watch(
                 </RouterLink>
               </div>
             </div>
-          </li>
+          </li> -->
           <li class="nav-item dropdown dropdown-hover mx-2">
             <a
               role="button"
@@ -285,7 +285,7 @@ watch(
                 :class="getTextColor()"
                 >view_day</i
               >
-              Sections
+              Projects
               <img
                 :src="getArrowColor()"
                 alt="down-arrow"
@@ -754,7 +754,7 @@ watch(
               </div>
             </div>
           </li>
-          <li class="nav-item dropdown dropdown-hover mx-2">
+          <!-- <li class="nav-item dropdown dropdown-hover mx-2">
             <a
               role="button"
               class="nav-link ps-2 d-flex cursor-pointer align-items-center"
@@ -907,10 +907,31 @@ watch(
                 </div>
               </div>
             </div>
+          </li> -->
+          <li class="nav-item dropdown dropdown-hover mx-2">
+            <a
+              href="https://www.linkedin.com/in/jefry-j-028388137"
+              target="_blank"
+              class="nav-link d-flex cursor-pointer align-items-center"
+            >
+              <svg
+                width="20px"
+                height="20px"
+                class="material-icons me-2 opacity-6"
+                viewBox="0 0 75 75"
+                aria-hidden="true"
+                data-testid="LinkedinIcon"
+                :fill="props.transparent && '#fff'"
+              >
+              <path d="M1.15 21.7h13V61h-13zm46.55-1.3c-5.7 0-9.1 2.1-12.7 6.7v-5.4H22V61h13.1V39.7c0-4.5 2.3-8.9 7.5-8.9s8.3 4.4 8.3 8.8V61H64V38.7c0-15.5-10.5-18.3-16.3-18.3zM7.7 2.6C3.4 2.6 0 5.7 0 9.5s3.4 6.9 7.7 6.9 7.7-3.1 7.7-6.9S12 2.6 7.7 2.6z"></path>
+              </svg>
+              Linkedln
+            </a>
           </li>
           <li class="nav-item dropdown dropdown-hover mx-2">
             <a
-              href="https://www.github.com/creativetimofficial/vue-material-kit"
+              href="https://github.com/Jefry-nolastname"
+              target="_blank"
               class="nav-link d-flex cursor-pointer align-items-center"
             >
               <svg
@@ -935,6 +956,7 @@ watch(
             <a
               :href="action.route"
               class="btn btn-sm mb-0"
+              target="_blank"
               :class="action.color"
               onclick="smoothToPricing('pricing-soft-ui')"
               >{{ action.label }}</a
