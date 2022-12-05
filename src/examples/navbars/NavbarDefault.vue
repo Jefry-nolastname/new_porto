@@ -134,12 +134,13 @@ watch(
         title="Designed and Coded by Creative Tim"
         data-placement="bottom"
       >
-        Material Design
+        My Portofolio & Work related site
       </RouterLink>
       <a
-        href="https://www.creative-tim.com/product/vue-material-kit-pro"
+        href="/CV_Eng.pdf"
+        target="_blank"
         class="btn btn-sm bg-gradient-success mb-0 ms-auto d-lg-none d-block"
-        >Buy Now</a
+        >Download My CV</a
       >
       <button
         class="navbar-toggler shadow-none ms-2"
