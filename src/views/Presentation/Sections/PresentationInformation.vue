@@ -11,22 +11,22 @@ import DefaultInfoCard from "../../../examples/cards/infoCards/DefaultInfoCard.v
         <div class="col-lg-4 ms-auto me-auto p-lg-4 mt-lg-0 mt-4">
           <RotatingCard>
             <RotatingCardFront
-              image="https://images.unsplash.com/photo-1569683795645-b62e50fbf103?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
+              image="/DP-Daily.png"
               icon="touch_app"
-              title="Feel the <br /> Material Kit"
-              description="All the Bootstrap components that you need in a development have been
-        re-design with the new look."
+              title="Know me better"
+              description="A simple coder and gamer by heart, driven by mysteries and the unknowns in life or any good stories."
             />
 
             <RotatingCardBack
-              image="https://images.unsplash.com/photo-1498889444388-e67ea62c464b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1365&q=80"
-              title="Discover More"
-              description="You will save a lot of time going from prototyping to full-functional
-                code because all elements are implemented."
+              image="/DP-Formal.jpg"
+              title="Summary"
+              description="Full Stack Developer with years of
+              experience, specializing in
+              Mobile / Web App Development."
               :action="[
                 {
                   route: './/sections/page-sections/hero-sections.html',
-                  label: 'Start with Headers',
+                  label: 'Let\'s talk',
                 },
               ]"
             />
@@ -35,32 +35,30 @@ import DefaultInfoCard from "../../../examples/cards/infoCards/DefaultInfoCard.v
         <div class="col-lg-6 ms-auto">
           <div class="row justify-content-start">
             <DefaultInfoCard
-              icon="content_copy"
-              title="Full Documentation"
-              description="Built by developers for developers. Check the foundation and
-                  you will find everything inside our documentation."
+              icon="person"
+              title="Basic Info"
+              description="Born in 11 March 1997 Palembang, South Sumatera. Currently resides on Jln. Candi Angsoko No. 393
+              Palembang"
             />
             <DefaultInfoCard
-              icon="flip_to_front"
-              title="Bootstrap 5 Ready"
-              description="The world’s most popular front-end open source toolkit,
-                  featuring Sass variables and mixins."
+              class="mt-3"
+              icon="school"
+              title="Education"
+              description="Bachelor Degree Cumlaude Graduate from STMIK Multi Data Palembang with 3.83 GPA"
             />
           </div>
           <div class="row justify-content-start mt-5">
             <DefaultInfoCard
-              class="mt-3"
-              icon="price_change"
-              title="Save Time & Money"
-              description="Creating your design from scratch with dedicated designers can
-                be very expensive. Start with our Design System."
+              icon="flip_to_front"
+              title="Programming Language"
+              description="Mainly javascripts such as React, Vue, Node, but i've used golang, java, php and many more depending on the projects at hand.
+              I've also worked with many DB such as mongoDB ,Mysql, MSSQL, Oracle, etc"
             />
             <DefaultInfoCard
               class="mt-3"
               icon="devices"
-              title="Fully Responsive"
-              description="Regardless of the screen size, the website content will
-                  naturally fit the given resolution."
+              title="Work Ethics"
+              description="I'm willing to work remotely / directly, solo / team projects and willing to go extra miles as long as i'm compensated"
             />
           </div>
         </div>

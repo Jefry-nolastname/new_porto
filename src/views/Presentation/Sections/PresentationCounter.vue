@@ -11,10 +11,9 @@ import DefaultCounterCard from "../../../examples/cards/counterCards/DefaultCoun
             <div class="col-md-4 position-relative">
               <DefaultCounterCard
                 color="success"
-                title="Coded Elements"
-                description="From buttons, to inputs, navbars, alerts or cards, you are
-                  covered"
-                :count="70"
+                title="Projects"
+                description="All projects that i've done or currently inprogress."
+                :count="12"
                 suffix="+"
                 :duration="3000"
                 divider="vertical"
@@ -23,10 +22,9 @@ import DefaultCounterCard from "../../../examples/cards/counterCards/DefaultCoun
             <div class="col-md-4 position-relative">
               <DefaultCounterCard
                 color="success"
-                title="Design Blocks"
-                description="Mix the sections, change the colors and unleash your
-                  creativity"
-                :count="15"
+                title="Companies"
+                description="Worked with many types of companies that varied from Otomotif, Department Store, Banking and other small side jobs"
+                :count="3"
                 suffix="+"
                 :duration="3000"
                 divider="vertical"
@@ -35,9 +33,8 @@ import DefaultCounterCard from "../../../examples/cards/counterCards/DefaultCoun
             <div class="col-md-4">
               <DefaultCounterCard
                 color="success"
-                title="Pages"
-                description="Save 3-4 weeks of work when you use our pre-made pages for
-                  your website"
+                title="Years Experiences"
+                description="Almost 4 years worth of experiences, working in full stack developments with many partners"
                 :count="4"
                 :duration="3000"
               />
