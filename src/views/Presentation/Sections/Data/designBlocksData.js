@@ -14,7 +14,7 @@ Coded by www.creative-tim.com
 */
 
 const imagesPrefix =
-  "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections";
+  "/hris_app";
 
 import imgPricing from "@/assets/img/pricing.png";
 import imgFeatures from "@/assets/img/features.png";
@@ -31,107 +31,117 @@ import imgDropdowns from "@/assets/img/dropdowns.jpg";
 
 export default [
   {
-    heading: "Design Blocks",
+    heading: "Thamrin HRIS",
+    languages:[
+      "Flutter",
+      "Golang",
+      "Nodejs",
+      "OracleDb",
+    ],
+    urls:[
+      {link:'/somethings',label:'PlayStore'},
+      {link:'/somethings',label:'AppStore'},
+    ],
     description:
-      "A selection of 45 page sections that fit perfectly in any combination",
+      "Mobile Application for the Employees of PT. Thamrin Brothers that handle <b class='text-dark'>payslip, leave request and approval, Clocking in/out with face recognition</b> and many more",
     items: [
       {
-        image: `${imagesPrefix}/headers.jpg`,
-        title: "Page Headers",
-        subtitle: "10 Examples",
+        image: `${imagesPrefix}/1.png`,
+        title: "HomePage",
+        subtitle: "Screen after login",
         route: "page-headers",
         pro: false
       },
       {
-        image: imgFeatures,
-        title: "Features",
+        image: `${imagesPrefix}/2.png`,
+        title: "Login Screen",
         subtitle: "14 Examples",
         route: "page-features",
         pro: false
       },
       {
-        image: imgPricing,
+        image:  `${imagesPrefix}/3.png`,
         title: "Pricing",
         subtitle: "8 Examples",
         route: "presentation",
-        pro: true
+        pro: false
       },
       {
-        image: `${imagesPrefix}/faq.jpg`,
+        image: `${imagesPrefix}/4.png`,
         title: "FAQ",
         subtitle: "1 Example",
         route: "presentation",
-        pro: true
+        pro: false
       },
       {
-        image: imgBlogPosts,
+        image: `${imagesPrefix}/5.png`,
         title: "Blog Posts",
         subtitle: "11 Examples",
         route: "presentation",
-        pro: true
+        pro: false
       },
       {
-        image: imgTestimonials,
+        image: `${imagesPrefix}/6.png`,
         title: "Testimonials",
         subtitle: "11 Examples",
         route: "presentation",
-        pro: true
+        pro: false
       },
       {
-        image: imgTeam,
+        image: `${imagesPrefix}/7.png`,
         title: "Teams",
         subtitle: "6 Examples",
         route: "presentation",
-        pro: true
+        pro: false
       },
       {
-        image: imgStat,
+        image: `${imagesPrefix}/8.png`,
         title: "Stats",
         subtitle: "3 Examples",
         route: "presentation",
-        pro: true
+        pro: false
       },
       {
-        image: `${imagesPrefix}/call-to-action.jpg`,
+        image: `${imagesPrefix}/9.png`,
         title: "Call to Actions",
         subtitle: "8 Examples",
         route: "presentation",
-        pro: true
+        pro: false
       },
       {
-        image: `${imagesPrefix}/projects.jpg`,
+        image: `${imagesPrefix}/10.png`,
         title: "Applications",
         subtitle: "6 Examples",
         route: "presentation",
-        pro: true
+        pro: false
       },
       {
-        image: `${imagesPrefix}/logo-area.jpg`,
+        image: `${imagesPrefix}/11.png`,
         title: "Logo Areas",
         subtitle: "4 Examples",
         route: "presentation",
-        pro: true
+        pro: false
       },
       {
-        image: `${imagesPrefix}/footers.jpg`,
+        image: `${imagesPrefix}/12.png`,
         title: "Footers",
         subtitle: "10 Examples",
         route: "presentation",
-        pro: true
+        pro: false
       },
       {
-        image: `${imagesPrefix}/general-cards.jpg`,
+        image: `${imagesPrefix}/13.png`,
         title: "General Cards",
         subtitle: "9 Examples",
         route: "presentation",
-        pro: true
+        pro: false
       },
       {
-        image: imgContent,
+        image: `${imagesPrefix}/14.png`,
         title: "Content Sections",
         subtitle: "8 Examples",
         route: "presentation",
-        pro: true
+        pro: false
       }
     ]
   },
@@ -172,14 +182,14 @@ export default [
         title: "Newsletters",
         subtitle: "6 Examples",
         route: "presentation",
-        pro: true
+        pro: false
       },
       {
         image: `${imagesPrefix}/contact-sections.jpg`,
         title: "Contact Sections",
         subtitle: "8 Examples",
         route: "presentation",
-        pro: true
+        pro: false
       },
       {
         image: `${imagesPrefix}/forms.jpg`,
@@ -214,7 +224,7 @@ export default [
         title: "Notifications",
         subtitle: "3 Examples",
         route: "presentation",
-        pro: true
+        pro: false
       },
       {
         image: imgPopover,
@@ -270,7 +280,7 @@ export default [
         title: "Social Buttons",
         subtitle: "2 Examples",
         route: "presentation",
-        pro: true
+        pro: false
       },
       {
         image: `${imagesPrefix}/breadcrumbs.jpg`,
@@ -298,7 +308,7 @@ export default [
         title: "Tables",
         subtitle: "3 Examples",
         route: "presentation",
-        pro: true
+        pro: false
       },
       {
         image: `${imagesPrefix}/typography.jpg`,
