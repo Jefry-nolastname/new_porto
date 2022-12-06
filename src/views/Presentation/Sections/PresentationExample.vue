@@ -66,7 +66,7 @@ export default {
     </div>
     <div class="container mt-sm-5 mt-3">
       <div
-        v-for="({ heading, description, items,languages,urls }, index) in data"
+        v-for="({ heading, description, items,languages,urls,videos }, index) in data"
         :class="`row ${index != 0 && index != -1 ? 'pt-lg-6' : ''}`"
         :key="heading"
       >
@@ -94,7 +94,7 @@ export default {
                 :key="idx"
               >
                 <a
-                  href={{link}}
+                  :href="link"
                   target="_blank"
                   :class="`btn btn-sm bg-gradient-${(['success','warning','primary','info'])[idx % 4]} mb-0 ms-auto d-block`"
                   >{{label}}</a
@@ -105,6 +105,25 @@ export default {
         </div>
         <div :class="`${col2 ?? 'col-lg-9'}`">
           <div :class="`row ${index != 0 ? 'mt-3' : ''}`">
+            <div v-for="({video,title,subtitle},idx)  in videos"
+              :key="idx"
+               class="col-md-4 md-0 mt-4 pe-4">
+              <div
+                class="card move-on-hover"
+                :title="title"
+              >
+                <video class="w-100" controls>
+                  <source :src="video" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <div class="mt-2 ms-2">
+                <h6 class="mb-0">{{title}}</h6>
+                <p class="text-secondary text-sm font-weight-normal">
+                  {{subtitle}}
+                </p>
+              </div>
+            </div>
             <div
               class="col-md-4 mt-md-0"
               v-for="{ image, title, subtitle, route, pro } in items"
