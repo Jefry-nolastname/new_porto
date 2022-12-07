@@ -11,13 +11,10 @@ import imgSigninCover from "@/assets/img/signin-cover.png";
       <div class="row">
         <div class="row text-center my-sm-5 mt-5">
           <div class="col-lg-6 mx-auto">
-            <MaterialBadge color="success" class="mb-3"
-              >Boost creativity</MaterialBadge
-            >
-            <h2 class="">With our coded pages</h2>
+            <h2 class="">and many more...</h2>
             <p class="lead">
-              The easiest way to get started is to use one of our <br />
-              pre-built example pages.
+              Since i want to design this homepage to be short and sweet, listing all my projects would not be a good idea.
+              So here's simple list of my other projects.
             </p>
           </div>
         </div>
@@ -66,11 +63,10 @@ import imgSigninCover from "@/assets/img/signin-cover.png";
         <div class="col-md-3 mx-auto mt-md-0 mt-3">
           <div class="position-sticky" style="top: 100px !important">
             <h3>
-              Presentation Pages for Company, Landing Pages, Blogs and Support
+              I listed them all in my github
             </h3>
             <h6 class="text-secondary font-weight-normal">
-              These is just a small selection of the multiple possibitilies you
-              have. Focus on the business, not on the design.
+              But they're all just images / screenshot since i can't publish the coding parts due to my clients privacy concerns.
             </h6>
           </div>
         </div>

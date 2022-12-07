@@ -48,11 +48,11 @@ export default [
       {
         video:`${imagesPrefix}/Demo-Hris.mp4`,
         title:'Demo Video',
-        subtitle:'Preview Usage'
+        subtitle:'Preview App Usage'
       },
       {
         video:`${imagesPrefix}/Demo Blink.mp4`,
-        title:'Demo Clock-in',
+        title:'Blinking Detection and Face Recognition Clock-in',
         subtitle:'Preview Blinking Detection for clocking in'
       }
     ],
@@ -158,7 +158,7 @@ export default [
   },
   {
     heading: "Thamrin Main & sub-sites",
-    description: "A main website that connect many PT Thamrin Brothers sub-companies and also some small product catalog sites (Suzuki,Honda,Yamaha)",
+    description: "A main website that connect many PT Thamrin Brothers sub-companies and also some small product e-commmerce sites (Suzuki,Honda,Yamaha)",
     languages:[
       "Mysql",
       "Strapi",
@@ -173,126 +173,126 @@ export default [
       {
         image: `${imagesWebsitePrefix}/1.png`,
         title: "HomePage",
-        subtitle: "Screen after login",
+        subtitle: "Main Site that show list of companies under PT Thamrin Brothers",
         route: "page-headers",
         pro: false
       },
       {
         image: `${imagesWebsitePrefix}/2.png`,
-        title: "Login Screen",
-        subtitle: "Login screen",
+        title: "Sub-website E-commerce Yamaha",
+        subtitle: "Sub-website HomePage",
         route: "page-features",
         pro: false
       },
       {
         image:  `${imagesWebsitePrefix}/3.png`,
-        title: "Google Map Office Radius",
-        subtitle: "Showing and calculating distances of nearest office via gps",
+        title: "Sub-website Products",
+        subtitle: "Showing List of products and basic info",
         route: "presentation",
         pro: false
       },
       {
         image: `${imagesWebsitePrefix}/4.png`,
-        title: "Attendances Calendar",
-        subtitle: "Showing working shift, clock-in/out",
+        title: "Product Details",
+        subtitle: "Showing detailed info of products",
         route: "presentation",
         pro: false
       },
       {
         image: `${imagesWebsitePrefix}/5.png`,
-        title: "Leaves History",
-        subtitle: "List of all the leave taken at that period",
+        title: "Accessories & Other Products",
+        subtitle: "List of all the other type of products",
         route: "presentation",
         pro: false
       },
       {
         image: `${imagesWebsitePrefix}/6.png`,
-        title: "Employees Profile",
-        subtitle: "List of recorded employee data",
+        title: "Accessories Detals",
+        subtitle: "Detailed info of accessories",
         route: "presentation",
         pro: false
       },
       {
         image: `${imagesWebsitePrefix}/7.png`,
-        title: "News Details",
-        subtitle: "After tapping the news showed in homepage",
+        title: "All sub-Office/Shops",
+        subtitle: "Listing the location and other info of dealers/shop of the sub-company",
         route: "presentation",
         pro: false
       },
       {
         image: `${imagesWebsitePrefix}/8.png`,
-        title: "In-App Notif",
-        subtitle: "Application messages and notification list",
+        title: "News List",
+        subtitle: "List of all the current news",
         route: "presentation",
         pro: false
       },
       {
         image: `${imagesWebsitePrefix}/9.png`,
-        title: "Absences List",
-        subtitle: "List of all the problematic attendaces data",
+        title: "News Details",
+        subtitle: "Showing news details after clicking news list",
         route: "presentation",
         pro: false
       },
       {
         image: `${imagesWebsitePrefix}/10.png`,
-        title: "Travel Permits",
-        subtitle: "Page to request business trip",
+        title: "Jobs List",
+        subtitle: "Page to request job application needed by the company",
         route: "presentation",
         pro: false
       },
       {
         image: `${imagesWebsitePrefix}/11.png`,
-        title: "Mail Server Inbox",
-        subtitle: "Mailing server, sending and recieving emails",
+        title: "Job Description and Terms",
+        subtitle: "Detailed info about a job and its T&C",
         route: "presentation",
         pro: false
       },
       {
         image: `${imagesWebsitePrefix}/12.png`,
-        title: "Mail details",
-        subtitle: "Show the contents of a mail",
+        title: "About us",
+        subtitle: "About Us Page",
         route: "presentation",
         pro: false
       },
       {
         image: `${imagesWebsitePrefix}/13.png`,
-        title: "Mailboxes",
-        subtitle: "List of Mail server basic functions",
+        title: "Membership Login",
+        subtitle: "Login for the company's membership cust",
         route: "presentation",
         pro: false
       },
       {
         image: `${imagesWebsitePrefix}/14.png`,
-        title: "Mailboxes",
-        subtitle: "List of Mail server basic functions",
+        title: "Membership Registration",
+        subtitle: "Signup for the company's membership cust",
         route: "presentation",
         pro: false
       },
       {
         image: `${imagesWebsitePrefix}/15.png`,
-        title: "Mailboxes",
-        subtitle: "List of Mail server basic functions",
+        title: "Profile & User Details 1",
+        subtitle: "List of User Info",
         route: "presentation",
         pro: false
       },
       {
         image: `${imagesWebsitePrefix}/16.png`,
-        title: "Mailboxes",
-        subtitle: "List of Mail server basic functions",
+        title: "Profile & User Details 2",
+        subtitle: "Vouchers/ Coupons List",
         route: "presentation",
         pro: false
       },
       {
         image: `${imagesWebsitePrefix}/17.png`,
-        title: "Mailboxes",
-        subtitle: "List of Mail server basic functions",
+        title: "Cart",
+        subtitle: "User's Cart Page",
         route: "presentation",
         pro: false
       },
       {
         image: `${imagesWebsitePrefix}/18.png`,
-        title: "Mailboxes",
-        subtitle: "List of Mail server basic functions",
+        title: "Purchase Details note",
+        subtitle: "Purchase detail note",
         route: "presentation",
         pro: false
       }
@@ -317,91 +317,91 @@ export default [
       {
         image: `${imagesBookingPrefix}/1.png`,
         title: "HomePage",
-        subtitle: "Screen after login",
+        subtitle: "Main page showing banners and basic services provided",
         route: "page-headers",
         pro: false
       },
       {
         image: `${imagesBookingPrefix}/2.png`,
-        title: "Login Screen",
-        subtitle: "Login screen",
+        title: "HomePage 2",
+        subtitle: "Main page showing banners and basic services provided",
         route: "page-features",
         pro: false
       },
       {
         image:  `${imagesBookingPrefix}/3.png`,
-        title: "Google Map Office Radius",
-        subtitle: "Showing and calculating distances of nearest office via gps",
+        title: "HomePage 3",
+        subtitle: "Main page showing banners and basic services provided",
         route: "presentation",
         pro: false
       },
       {
         image: `${imagesBookingPrefix}/4.png`,
-        title: "Attendances Calendar",
-        subtitle: "Showing working shift, clock-in/out",
+        title: "Booking Page",
+        subtitle: "Page to book an appointment (limited by Vehicle's number and google re-Captcha)",
         route: "presentation",
         pro: false
       },
       {
         image: `${imagesBookingPrefix}/5.png`,
-        title: "Leaves History",
-        subtitle: "List of all the leave taken at that period",
-        route: "presentation",
-        pro: false
-      },
-      {
-        image: `${imagesBookingPrefix}/6.png`,
-        title: "Employees Profile",
-        subtitle: "List of recorded employee data",
+        title: "Google Captcha",
+        subtitle: "Google Captcha after submitting form",
         route: "presentation",
         pro: false
       },
       {
         image: `${imagesBookingPrefix}/7.png`,
-        title: "News Details",
-        subtitle: "After tapping the news showed in homepage",
+        title: "Confirmation Popup",
+        subtitle: "Confirmation of appointment has been made, with reminder via email and unique code to track it.",
+        route: "presentation",
+        pro: false
+      },
+      {
+        image: `${imagesBookingPrefix}/6.png`,
+        title: "Appointment Details 1",
+        subtitle: "Finding booking info with unique code or vehicle's number",
         route: "presentation",
         pro: false
       },
       {
         image: `${imagesBookingPrefix}/8.png`,
-        title: "In-App Notif",
-        subtitle: "Application messages and notification list",
+        title: "Appointment Details 2",
+        subtitle: "Finding booking info with unique code or vehicle's number",
         route: "presentation",
         pro: false
       },
       {
         image: `${imagesBookingPrefix}/9.png`,
-        title: "Absences List",
-        subtitle: "List of all the problematic attendaces data",
-        route: "presentation",
-        pro: false
-      },
-      {
-        image: `${imagesBookingPrefix}/10.png`,
-        title: "Travel Permits",
-        subtitle: "Page to request business trip",
-        route: "presentation",
-        pro: false
-      },
-      {
-        image: `${imagesBookingPrefix}/11.png`,
-        title: "Mail Server Inbox",
-        subtitle: "Mailing server, sending and recieving emails",
-        route: "presentation",
-        pro: false
-      },
-      {
-        image: `${imagesBookingPrefix}/12.png`,
-        title: "Mail details",
-        subtitle: "Show the contents of a mail",
+        title: "Appointment Details Pdf",
+        subtitle: "Popup showing the details and the download button",
         route: "presentation",
         pro: false
       },
       {
         image: `${imagesBookingPrefix}/13.png`,
-        title: "Mailboxes",
-        subtitle: "List of Mail server basic functions",
+        title: "Admin Page Login",
+        subtitle: "Backend Login for administrator",
+        route: "presentation",
+        pro: false
+      },
+      {
+        image: `${imagesBookingPrefix}/10.png`,
+        title: "List Navigation",
+        subtitle: "Showing List of data save in the server",
+        route: "presentation",
+        pro: false
+      },
+      {
+        image: `${imagesBookingPrefix}/11.png`,
+        title: "Booking List",
+        subtitle: "Show all the booking info currently saved and their status",
+        route: "presentation",
+        pro: false
+      },
+      {
+        image: `${imagesBookingPrefix}/12.png`,
+        title: "New appointment Popup",
+        subtitle: "Manually adding new appointment via admin panel",
         route: "presentation",
         pro: false
       },
