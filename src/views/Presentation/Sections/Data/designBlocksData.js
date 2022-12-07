@@ -14,7 +14,13 @@ Coded by www.creative-tim.com
 */
 
 const imagesPrefix =
-  "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections";
+  "/hris_app";
+
+const imagesWebsitePrefix =
+  "/sub_company_site";
+
+const imagesBookingPrefix =
+  "/booking-site";
 
 import imgPricing from "@/assets/img/pricing.png";
 import imgFeatures from "@/assets/img/features.png";
@@ -31,282 +37,374 @@ import imgDropdowns from "@/assets/img/dropdowns.jpg";
 
 export default [
   {
-    heading: "Design Blocks",
+    heading: "Thamrin HRIS",
+    languages:[
+      "Flutter",
+      "Golang",
+      "Nodejs",
+      "OracleDb",
+    ],
+    videos:[
+      {
+        video:`${imagesPrefix}/Demo-Hris.mp4`,
+        title:'Demo Video',
+        subtitle:'Preview App Usage'
+      },
+      {
+        video:`${imagesPrefix}/Demo Blink.mp4`,
+        title:'Blinking Detection and Face Recognition Clock-in',
+        subtitle:'Preview Blinking Detection for clocking in'
+      }
+    ],
+    urls:[
+      {link:'/somethings',label:'PlayStore'},
+      {link:'/somethings',label:'AppStore'},
+    ],
     description:
-      "A selection of 45 page sections that fit perfectly in any combination",
+      "Mobile Application for the Employees of PT. Thamrin Brothers that handle <b class='text-dark'>payslip, leave request and approval, Clocking in/out with face recognition</b> and many more",
     items: [
       {
-        image: `${imagesPrefix}/headers.jpg`,
-        title: "Page Headers",
-        subtitle: "10 Examples",
+        image: `${imagesPrefix}/1.png`,
+        title: "HomePage",
+        subtitle: "Screen after login",
         route: "page-headers",
         pro: false
       },
       {
-        image: imgFeatures,
-        title: "Features",
-        subtitle: "14 Examples",
+        image: `${imagesPrefix}/2.png`,
+        title: "Login Screen",
+        subtitle: "Login screen",
         route: "page-features",
         pro: false
       },
       {
-        image: imgPricing,
-        title: "Pricing",
-        subtitle: "8 Examples",
+        image:  `${imagesPrefix}/3.png`,
+        title: "Google Map Office Radius",
+        subtitle: "Showing and calculating distances of nearest office via gps",
         route: "presentation",
-        pro: true
+        pro: false
       },
       {
-        image: `${imagesPrefix}/faq.jpg`,
-        title: "FAQ",
-        subtitle: "1 Example",
+        image: `${imagesPrefix}/4.png`,
+        title: "Attendances Calendar",
+        subtitle: "Showing working shift, clock-in/out",
         route: "presentation",
-        pro: true
+        pro: false
       },
       {
-        image: imgBlogPosts,
-        title: "Blog Posts",
-        subtitle: "11 Examples",
+        image: `${imagesPrefix}/5.png`,
+        title: "Leaves History",
+        subtitle: "List of all the leave taken at that period",
         route: "presentation",
-        pro: true
+        pro: false
       },
       {
-        image: imgTestimonials,
-        title: "Testimonials",
-        subtitle: "11 Examples",
+        image: `${imagesPrefix}/6.png`,
+        title: "Employees Profile",
+        subtitle: "List of recorded employee data",
         route: "presentation",
-        pro: true
+        pro: false
       },
       {
-        image: imgTeam,
-        title: "Teams",
-        subtitle: "6 Examples",
+        image: `${imagesPrefix}/7.png`,
+        title: "News Details",
+        subtitle: "After tapping the news showed in homepage",
         route: "presentation",
-        pro: true
+        pro: false
       },
       {
-        image: imgStat,
-        title: "Stats",
-        subtitle: "3 Examples",
+        image: `${imagesPrefix}/8.png`,
+        title: "In-App Notif",
+        subtitle: "Application messages and notification list",
         route: "presentation",
-        pro: true
+        pro: false
       },
       {
-        image: `${imagesPrefix}/call-to-action.jpg`,
-        title: "Call to Actions",
-        subtitle: "8 Examples",
+        image: `${imagesPrefix}/9.png`,
+        title: "Absences List",
+        subtitle: "List of all the problematic attendaces data",
         route: "presentation",
-        pro: true
+        pro: false
       },
       {
-        image: `${imagesPrefix}/projects.jpg`,
-        title: "Applications",
-        subtitle: "6 Examples",
+        image: `${imagesPrefix}/10.png`,
+        title: "Travel Permits",
+        subtitle: "Page to request business trip",
         route: "presentation",
-        pro: true
+        pro: false
       },
       {
-        image: `${imagesPrefix}/logo-area.jpg`,
-        title: "Logo Areas",
-        subtitle: "4 Examples",
+        image: `${imagesPrefix}/11.png`,
+        title: "Mail Server Inbox",
+        subtitle: "Mailing server, sending and recieving emails",
         route: "presentation",
-        pro: true
+        pro: false
       },
       {
-        image: `${imagesPrefix}/footers.jpg`,
-        title: "Footers",
-        subtitle: "10 Examples",
+        image: `${imagesPrefix}/12.png`,
+        title: "Mail details",
+        subtitle: "Show the contents of a mail",
         route: "presentation",
-        pro: true
+        pro: false
       },
       {
-        image: `${imagesPrefix}/general-cards.jpg`,
-        title: "General Cards",
-        subtitle: "9 Examples",
+        image: `${imagesPrefix}/13.png`,
+        title: "Mailboxes",
+        subtitle: "List of Mail server basic functions",
         route: "presentation",
-        pro: true
-      },
-      {
-        image: imgContent,
-        title: "Content Sections",
-        subtitle: "8 Examples",
-        route: "presentation",
-        pro: true
+        pro: false
       }
     ]
   },
   {
-    heading: "Navigation",
-    description: "30+ components that will help go through the pages",
+    heading: "Thamrin Main & sub-sites",
+    description: "A main website that connect many PT Thamrin Brothers sub-companies and also some small product e-commmerce sites (Suzuki,Honda,Yamaha)",
+    languages:[
+      "Mysql",
+      "Strapi",
+      "Nextjs/React",
+    ],
+    videos:[
+    ],
+    urls:[
+      {link:'https://thamrin.co.id',label:'Visit here'},
+    ],
     items: [
       {
-        image: `${imagesPrefix}/navbars.jpg`,
-        title: "Navbars",
-        subtitle: "4 Examples",
-        route: "navigation-navbars",
+        image: `${imagesWebsitePrefix}/1.png`,
+        title: "HomePage",
+        subtitle: "Main Site that show list of companies under PT Thamrin Brothers",
+        route: "page-headers",
         pro: false
       },
       {
-        image: `${imagesPrefix}/nav-tabs.jpg`,
-        title: "Nav Tabs",
-        subtitle: "2 Nav Tabs",
-        route: "navigation-navtabs",
+        image: `${imagesWebsitePrefix}/2.png`,
+        title: "Sub-website E-commerce Yamaha",
+        subtitle: "Sub-website HomePage",
+        route: "page-features",
         pro: false
       },
       {
-        image: imgPagination,
-        title: "Pagination",
-        subtitle: "3 Examples",
-        route: "navigation-pagination",
+        image:  `${imagesWebsitePrefix}/3.png`,
+        title: "Sub-website Products",
+        subtitle: "Showing List of products and basic info",
+        route: "presentation",
+        pro: false
+      },
+      {
+        image: `${imagesWebsitePrefix}/4.png`,
+        title: "Product Details",
+        subtitle: "Showing detailed info of products",
+        route: "presentation",
+        pro: false
+      },
+      {
+        image: `${imagesWebsitePrefix}/5.png`,
+        title: "Accessories & Other Products",
+        subtitle: "List of all the other type of products",
+        route: "presentation",
+        pro: false
+      },
+      {
+        image: `${imagesWebsitePrefix}/6.png`,
+        title: "Accessories Detals",
+        subtitle: "Detailed info of accessories",
+        route: "presentation",
+        pro: false
+      },
+      {
+        image: `${imagesWebsitePrefix}/7.png`,
+        title: "All sub-Office/Shops",
+        subtitle: "Listing the location and other info of dealers/shop of the sub-company",
+        route: "presentation",
+        pro: false
+      },
+      {
+        image: `${imagesWebsitePrefix}/8.png`,
+        title: "News List",
+        subtitle: "List of all the current news",
+        route: "presentation",
+        pro: false
+      },
+      {
+        image: `${imagesWebsitePrefix}/9.png`,
+        title: "News Details",
+        subtitle: "Showing news details after clicking news list",
+        route: "presentation",
+        pro: false
+      },
+      {
+        image: `${imagesWebsitePrefix}/10.png`,
+        title: "Jobs List",
+        subtitle: "Page to request job application needed by the company",
+        route: "presentation",
+        pro: false
+      },
+      {
+        image: `${imagesWebsitePrefix}/11.png`,
+        title: "Job Description and Terms",
+        subtitle: "Detailed info about a job and its T&C",
+        route: "presentation",
+        pro: false
+      },
+      {
+        image: `${imagesWebsitePrefix}/12.png`,
+        title: "About us",
+        subtitle: "About Us Page",
+        route: "presentation",
+        pro: false
+      },
+      {
+        image: `${imagesWebsitePrefix}/13.png`,
+        title: "Membership Login",
+        subtitle: "Login for the company's membership cust",
+        route: "presentation",
+        pro: false
+      },
+      {
+        image: `${imagesWebsitePrefix}/14.png`,
+        title: "Membership Registration",
+        subtitle: "Signup for the company's membership cust",
+        route: "presentation",
+        pro: false
+      },
+      {
+        image: `${imagesWebsitePrefix}/15.png`,
+        title: "Profile & User Details 1",
+        subtitle: "List of User Info",
+        route: "presentation",
+        pro: false
+      },
+      {
+        image: `${imagesWebsitePrefix}/16.png`,
+        title: "Profile & User Details 2",
+        subtitle: "Vouchers/ Coupons List",
+        route: "presentation",
+        pro: false
+      },
+      {
+        image: `${imagesWebsitePrefix}/17.png`,
+        title: "Cart",
+        subtitle: "User's Cart Page",
+        route: "presentation",
+        pro: false
+      },
+      {
+        image: `${imagesWebsitePrefix}/18.png`,
+        title: "Purchase Details note",
+        subtitle: "Purchase detail note",
+        route: "presentation",
         pro: false
       }
     ]
   },
   {
-    heading: "Input Areas",
+    heading: "Booking Services",
     description:
-      "50+ elements that you need for text manipulation and insertion",
+      "A website that is used to let customers to book an appointment for vehicle's maintenance in advanced, with a unique generated code that used to log the booking data.",
+    languages:[
+      "Mysql",
+      "Strapi",
+      "React",
+      "Rsuitejs Theme"
+    ],
+    videos:[
+    ],
+    urls:[
+      {link:'https://booking.thamrin.co.id',label:'Visit here'},
+    ],
     items: [
       {
-        image: `${imagesPrefix}/newsletters.jpg`,
-        title: "Newsletters",
-        subtitle: "6 Examples",
-        route: "presentation",
-        pro: true
-      },
-      {
-        image: `${imagesPrefix}/contact-sections.jpg`,
-        title: "Contact Sections",
-        subtitle: "8 Examples",
-        route: "presentation",
-        pro: true
-      },
-      {
-        image: `${imagesPrefix}/forms.jpg`,
-        title: "Forms",
-        subtitle: "3 Examples",
-        route: "inputareas-forms",
+        image: `${imagesBookingPrefix}/1.png`,
+        title: "HomePage",
+        subtitle: "Main page showing banners and basic services provided",
+        route: "page-headers",
         pro: false
       },
       {
-        image: `${imagesPrefix}/inputs.jpg`,
-        title: "Inputs",
-        subtitle: "6 Examples",
-        route: "inputareas-inputs",
+        image: `${imagesBookingPrefix}/2.png`,
+        title: "HomePage 2",
+        subtitle: "Main page showing banners and basic services provided",
+        route: "page-features",
         pro: false
-      }
+      },
+      {
+        image:  `${imagesBookingPrefix}/3.png`,
+        title: "HomePage 3",
+        subtitle: "Main page showing banners and basic services provided",
+        route: "presentation",
+        pro: false
+      },
+      {
+        image: `${imagesBookingPrefix}/4.png`,
+        title: "Booking Page",
+        subtitle: "Page to book an appointment (limited by Vehicle's number and google re-Captcha)",
+        route: "presentation",
+        pro: false
+      },
+      {
+        image: `${imagesBookingPrefix}/5.png`,
+        title: "Google Captcha",
+        subtitle: "Google Captcha after submitting form",
+        route: "presentation",
+        pro: false
+      },
+      {
+        image: `${imagesBookingPrefix}/7.png`,
+        title: "Confirmation Popup",
+        subtitle: "Confirmation of appointment has been made, with reminder via email and unique code to track it.",
+        route: "presentation",
+        pro: false
+      },
+      {
+        image: `${imagesBookingPrefix}/6.png`,
+        title: "Appointment Details 1",
+        subtitle: "Finding booking info with unique code or vehicle's number",
+        route: "presentation",
+        pro: false
+      },
+      {
+        image: `${imagesBookingPrefix}/8.png`,
+        title: "Appointment Details 2",
+        subtitle: "Finding booking info with unique code or vehicle's number",
+        route: "presentation",
+        pro: false
+      },
+      {
+        image: `${imagesBookingPrefix}/9.png`,
+        title: "Appointment Details Pdf",
+        subtitle: "Popup showing the details and the download button",
+        route: "presentation",
+        pro: false
+      },
+      {
+        image: `${imagesBookingPrefix}/13.png`,
+        title: "Admin Page Login",
+        subtitle: "Backend Login for administrator",
+        route: "presentation",
+        pro: false
+      },
+      {
+        image: `${imagesBookingPrefix}/10.png`,
+        title: "List Navigation",
+        subtitle: "Showing List of data save in the server",
+        route: "presentation",
+        pro: false
+      },
+      {
+        image: `${imagesBookingPrefix}/11.png`,
+        title: "Booking List",
+        subtitle: "Show all the booking info currently saved and their status",
+        route: "presentation",
+        pro: false
+      },
+      {
+        image: `${imagesBookingPrefix}/12.png`,
+        title: "New appointment Popup",
+        subtitle: "Manually adding new appointment via admin panel",
+        route: "presentation",
+        pro: false
+      },
     ]
   },
-  {
-    heading: "Attention Catchers",
-    description:
-      "20+ Fully coded components that popup from different places of the screen",
-    items: [
-      {
-        image: imgAlert,
-        title: "Alerts",
-        subtitle: "4 Examples",
-        route: "ac-alerts",
-        pro: false
-      },
-      {
-        image: `${imagesPrefix}/toasts.jpg`,
-        title: "Notifications",
-        subtitle: "3 Examples",
-        route: "presentation",
-        pro: true
-      },
-      {
-        image: imgPopover,
-        title: "Tooltips & Popovers",
-        subtitle: "2 Examples",
-        route: "ac-tooltips-popovers",
-        pro: false
-      },
-      {
-        image: imgModal,
-        title: "Modals",
-        subtitle: "5 Examples",
-        route: "ac-modals",
-        pro: false
-      }
-    ]
-  },
-  {
-    heading: "Elements",
-    description:
-      "80+ carefully crafted small elements that come with multiple colors and shapes",
-    items: [
-      {
-        image: `${imagesPrefix}/buttons.jpg`,
-        title: "Buttons",
-        subtitle: "6 Examples",
-        route: "el-buttons",
-        pro: false
-      },
-      {
-        image: `${imagesPrefix}/avatars.jpg`,
-        title: "Avatars",
-        subtitle: "2 Examples",
-        route: "el-avatars",
-        pro: false
-      },
-      {
-        image: imgDropdowns,
-        title: "Dropdowns",
-        subtitle: "2 Examples",
-        route: "el-dropdowns",
-        pro: false
-      },
-      {
-        image: `${imagesPrefix}/switch.jpg`,
-        title: "Toggles",
-        subtitle: "2 Examples",
-        route: "el-toggles",
-        pro: false
-      },
-      {
-        image: `${imagesPrefix}/social-buttons.jpg`,
-        title: "Social Buttons",
-        subtitle: "2 Examples",
-        route: "presentation",
-        pro: true
-      },
-      {
-        image: `${imagesPrefix}/breadcrumbs.jpg`,
-        title: "Breadcrumbs",
-        subtitle: "1 Example",
-        route: "el-breadcrumbs",
-        pro: false
-      },
-      {
-        image: `${imagesPrefix}/badges.jpg`,
-        title: "Badges",
-        subtitle: "3 Examples",
-        route: "el-badges",
-        pro: false
-      },
-      {
-        image: `${imagesPrefix}/progress.jpg`,
-        title: "Progress Bars",
-        subtitle: "4 Examples",
-        route: "el-progress-bars",
-        pro: false
-      },
-      {
-        image: `${imagesPrefix}/tables.jpg`,
-        title: "Tables",
-        subtitle: "3 Examples",
-        route: "presentation",
-        pro: true
-      },
-      {
-        image: `${imagesPrefix}/typography.jpg`,
-        title: "Typography",
-        subtitle: "2 Examples",
-        route: "el-typography",
-        pro: false
-      }
-    ]
-  }
 ];
