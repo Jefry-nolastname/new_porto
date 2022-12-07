@@ -83,8 +83,8 @@ onUnmounted(() => {
     <PresentationInformation />
     <PresentationExample :data="data" />
     <PresentationPages />
-    <BuiltByDevelopers />
-
+    <!-- <BuiltByDevelopers /> -->
+<!-- 
     <div class="container">
       <div class="row">
         <div class="col-lg-4">
@@ -132,7 +132,7 @@ onUnmounted(() => {
         </div>
       </div>
     </div>
-    <PresentationTestimonials />
+    <PresentationTestimonials /> -->
 
     <div
       class="container-fluid mt-sm-5 border-radius-xl"
@@ -153,19 +153,24 @@ onUnmounted(() => {
             <div class="d-flex justify-content-center p-5">
               <div class="col-lg-8 ms-lg-5 text-center">
                 <h3 class="text-white">
-                  Do you love this awesome UI Kit from Vuejs & Bootstrap?
+                  Want me in your projects or have oportunities that might interest me  ?
                 </h3>
                 <p class="text-white text-md">
-                  Cause if you do, it can be yours for FREE. Hit the button
-                  below to navigate to Creative Tim where you can <br />
-                  find the Design System in HTML. Start a new project or give an
-                  old Bootstrap project a new look!
+                  Contact me right away via email or Whatsapp for a fast response.
                 </p>
 
                 <a
-                  href="https://www.creative-tim.com/product/vue-material-kit"
-                  class="btn btn-sm mb-0 bg-gradient-success px-5 py-3 mt-4"
-                  >Download Now</a
+                  target="_blank"
+                  href="mailto:jefryofficial@gmail.com"
+                  class="btn btn-sm mb-0 bg-gradient-success px-5 py-3 mt-4 mx-2"
+                  >Mail me</a
+                >
+
+                <a
+                  target="_blank"
+                  href="https://api.WhatsApp.com/send?phone=62895350128988"
+                  class="btn btn-sm mb-0 bg-info px-5 py-3 mt-4 text-white"
+                  >Whatsapp me</a
                 >
               </div>
             </div>
@@ -174,7 +179,7 @@ onUnmounted(() => {
       </div>
     </div>
 
-    <div class="container">
+    <!-- <div class="container">
       <div class="row">
         <div class="d-flex flex-column w-100 text-center p-5 mb-8">
           <h3>Available on these technologies</h3>
@@ -266,36 +271,37 @@ onUnmounted(() => {
         </div>
       </div>
     </div>
+  -->
     <div class="py-5">
       <div class="container">
         <div class="row">
           <div class="col-lg-5 ms-auto">
-            <h4 class="mb-1">Thank you for your support!</h4>
-            <p class="lead mb-0">We deliver the best web products</p>
+            <h4 class="mb-1">Well i don't use alot of Social Media</h4>
+            <p class="lead mb-0">but i don't want to be The Creepy IT Guy without social app so here it is</p>
           </div>
           <div class="col-lg-5 me-lg-auto my-lg-auto text-lg-end mt-5">
             <MaterialSocialButton
-              route="https://twitter.com/intent/tweet?text=Check%20Material%20Design%20System%20made%20by%20%40CreativeTim%20%23webdesign%20%23designsystem%20%23bootstrap5&url=https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fmaterial-design-system-pro"
+              route="https://twitter.com/somebodys12"
               component="twitter"
               color="twitter"
               label="Tweet"
             />
             <MaterialSocialButton
-              route="https://www.facebook.com/sharer/sharer.php?u=https://www.creative-tim.com/product/material-design-system-pro"
+              route="https://www.facebook.com/jefryniceguy"
               component="facebook-square"
               color="facebook"
-              label="Share"
+              label="Facebook"
             />
             <MaterialSocialButton
-              route=""
-              component="pinterest"
-              color="pinterest"
-              label="Pin it"
+              route="https://www.instagram.com/jjofficialdev"
+              component="instagram"
+              color="instagram"
+              label="Instagram"
             />
           </div>
         </div>
       </div>
-    </div>
+    </div> 
   </div>
   <DefaultFooter />
 </template>
