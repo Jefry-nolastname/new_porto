@@ -14,13 +14,13 @@ Coded by www.creative-tim.com
 */
 
 const imagesPrefix =
-  "/hris_app";
+  "./hris_app";
 
 const imagesWebsitePrefix =
-  "/sub_company_site";
+  "./sub_company_site";
 
 const imagesBookingPrefix =
-  "/booking-site";
+  "./booking-site";
 
 import imgPricing from "@/assets/img/pricing.png";
 import imgFeatures from "@/assets/img/features.png";
