@@ -11,14 +11,14 @@ import DefaultInfoCard from "../../../examples/cards/infoCards/DefaultInfoCard.v
         <div class="col-lg-4 ms-auto me-auto p-lg-4 mt-lg-0 mt-4">
           <RotatingCard>
             <RotatingCardFront
-              image="/DP-Daily.png"
+              image="./DP-Daily.png"
               icon="touch_app"
               title="Know me better"
               description="A simple coder and gamer by heart, driven by mysteries and the unknowns in life or any good stories."
             />
 
             <RotatingCardBack
-              image="/DP-Formal.jpg"
+              image="./DP-Formal.jpg"
               title="Summary"
               description="Full Stack Developer with years of
               experience, specializing in
