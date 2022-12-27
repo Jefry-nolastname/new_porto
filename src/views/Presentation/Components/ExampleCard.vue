@@ -15,7 +15,11 @@ defineProps({
   },
   image: {
     type: String,
-    required: true,
+    required: false,
+  },
+  video: {
+    type: String,
+    required: false,
   },
   title: {
     type: String,
@@ -50,12 +54,16 @@ export default {
       :title="pro ? 'Pro Element' : null"
     >
       <img
+        v-if="image!=null"
         class="w-100"
         :class="pro && 'opacity-6'"
         :src="image"
         :alt="title"
         loading="lazy"
       />
+      iframe width="345" height="195" v-if="video!=null" :src="video" allow="autoplay">
+        Your browser does not support the video tag.
+      </iframe>
       <svg
         v-if="pro"
         class="position-absolute"
