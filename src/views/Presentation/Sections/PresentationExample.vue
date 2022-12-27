@@ -105,24 +105,30 @@ export default {
         </div>
         <div :class="`${col2 ?? 'col-lg-9'}`">
           <div :class="`row ${index != 0 ? 'mt-3' : ''}`">
-            <div v-for="({video,title,subtitle},idx)  in videos"
+            <div v-for="({video,title,subtitle,thumbnail},idx)  in videos"
               :key="idx"
                class="col-md-4 md-0 mt-4 pe-4">
-              <div
+               <!-- <ExampleCard
+                    class="min-height-160 shadow-lg mt-4"
+                    :image="thumbnail"
+                    :title="title"
+                    :subtitle="subtitle"
+                  /> -->
+              <div 
                 class="card move-on-hover"
                 :title="title"
               >
-                <video class="w-100" controls>
-                  <source :src="video" type="video/mp4">
+                <iframe :id="idx+'_video'" width="254" height="524" :src="video" allow="autoplay">
                   Your browser does not support the video tag.
-                </video>
-              </div>
-              <div class="mt-2 ms-2">
+                </iframe>
+                <div class="mt-2 ms-2">
                 <h6 class="mb-0">{{title}}</h6>
                 <p class="text-secondary text-sm font-weight-normal">
                   {{subtitle}}
                 </p>
               </div>
+              </div>
+              
             </div>
             <div
               class="col-md-4 mt-md-0"
