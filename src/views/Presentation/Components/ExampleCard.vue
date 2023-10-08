@@ -61,7 +61,7 @@ export default {
         :alt="title"
         loading="lazy"
       />
-      iframe width="345" height="195" v-if="video!=null" :src="video" allow="autoplay">
+      <iframe width="345" height="195" v-if="video!=null" :src="video">
         Your browser does not support the video tag.
       </iframe>
       <svg

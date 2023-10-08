@@ -15,7 +15,7 @@ const props = defineProps({
     color: String,
     label: String,
     default: () => ({
-      route: "/CV_Eng.pdf",
+      route: "CV_Eng.pdf",
       color: "bg-gradient-success",
       label: "Download my CV"
     })
@@ -137,7 +137,7 @@ watch(
         My Portofolio & Work related site
       </RouterLink>
       <a
-        href="/CV_Eng.pdf"
+        href="CV_Eng.pdf"
         target="_blank"
         class="btn btn-sm bg-gradient-success mb-0 ms-auto d-lg-none d-block"
         >Download My CV</a
@@ -272,7 +272,7 @@ watch(
               </div>
             </div>
           </li> -->
-          <li class="nav-item dropdown dropdown-hover mx-2">
+          <!-- <li class="nav-item dropdown dropdown-hover mx-2">
             <a
               role="button"
               class="nav-link ps-2 d-flex cursor-pointer align-items-center"
@@ -754,7 +754,7 @@ watch(
                 </div>
               </div>
             </div>
-          </li>
+          </li> -->
           <!-- <li class="nav-item dropdown dropdown-hover mx-2">
             <a
               role="button"

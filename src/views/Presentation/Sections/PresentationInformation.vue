@@ -25,7 +25,7 @@ import DefaultInfoCard from "../../../examples/cards/infoCards/DefaultInfoCard.v
               Mobile / Web App Development."
               :action="[
                 {
-                  route: './/sections/page-sections/hero-sections.html',
+                  route: 'https://api.whatsapp.com/send?phone=62895350128988',
                   label: 'Let\'s talk',
                 },
               ]"

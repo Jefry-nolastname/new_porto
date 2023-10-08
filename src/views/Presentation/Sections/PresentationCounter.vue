@@ -34,8 +34,9 @@ import DefaultCounterCard from "../../../examples/cards/counterCards/DefaultCoun
               <DefaultCounterCard
                 color="success"
                 title="Years Experiences"
-                description="Almost 4 years worth of experiences, working in full stack developments with many partners"
+                description="4+ years worth of experiences, working in full stack developments with many partners"
                 :count="4"
+                suffix="+"
                 :duration="3000"
               />
             </div>

@@ -27,17 +27,17 @@ import imgSigninCover from "@/assets/img/signin-cover.png";
             <div class="col-md-6 mt-md-0 mt-5">
               <ExampleCard
                 class="shadow-lg"
-                title="About Us Page"
-                image="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/pages/about-us.jpg"
-                route="about"
+                title="Face Detect Using Golang"
+                video="demo_video/Face_detect_Golang.mp4"
+                
               />
             </div>
             <div class="col-md-6 mt-md-0 mt-5">
               <ExampleCard
                 class="shadow-lg"
-                title="Contact Us Page"
-                image="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/pages/contact.jpg"
-                route="contactus"
+                title="Auth PinCode jquery Plugin"
+                image="demo_video/custom_plugin_pinBB.png"
+                
               />
             </div>
           </div>
@@ -45,17 +45,17 @@ import imgSigninCover from "@/assets/img/signin-cover.png";
             <div class="col-md-6 mt-md-0 mt-5">
               <ExampleCard
                 classes="mt-5"
-                title="Sign In Page"
-                :image="imgSigninCover"
-                route="signin-basic"
+                title="Battle Ragnarok Online Private Server"
+                video="demo_video/battleRO-Private Server.mp4"
+                
               />
             </div>
             <div class="col-md-6 mt-md-0 mt-5">
               <ExampleCard
                 classes="shadow-lg"
-                title="Author Page"
-                image="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/pages/author.jpg"
-                route="author"
+                title="Asset Management Data"
+                video="demo_video/Asset management demo.mp4"
+                
               />
             </div>
           </div>

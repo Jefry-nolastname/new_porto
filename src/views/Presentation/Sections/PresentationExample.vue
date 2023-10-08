@@ -118,7 +118,7 @@ export default {
                 class="card move-on-hover"
                 :title="title"
               >
-                <iframe :id="idx+'_video'" width="254" height="524" :src="video" allow="autoplay">
+                <iframe :id="idx+'_video'" width="254" height="524" :src="video" >
                   Your browser does not support the video tag.
                 </iframe>
                 <div class="mt-2 ms-2">

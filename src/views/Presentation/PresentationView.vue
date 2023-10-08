@@ -293,7 +293,7 @@ onUnmounted(() => {
               label="Facebook"
             />
             <MaterialSocialButton
-              route="https://www.instagram.com/jjofficialdev"
+              route="https://www.instagram.com/jefryjj97/"
               component="instagram"
               color="instagram"
               label="Instagram"
